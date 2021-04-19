@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>Create User</title>
+    <link href="templates/userForm.css" rel="stylesheet" type="text/css">
+    <link href="templates/nav.css" rel="stylesheet" type="text/css">
+</head>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="#" class="active">Create User</a>
+    <a href="ViewUsers">Transfer Money</a>
+    <a href="TransactionHistory">Transfer History</a>
+</nav>
+
+<body>
+    <h1>Create a New User</h1>
+
+    <form action="UserCreation" method="POST">
+	<table>
+            <tr>
+		<td><label for="name">Name</label></td>
+		<td><input type="text" name="Name"></td>
+            </tr>
+		
+            <tr>
+		<td><label for="email">Email</label></td>
+		<td><input type="email" name="email"></td>
+            </tr>
+			
+            <tr>
+		<td><label for="balance">Balance</label></td>
+		<td><input type="number" min="0" step="any" name="balance"></td>
+            </tr>
+			
+            <tr>
+		<td><input type="submit" class="button" value="Create"></td>
+		<td><input type="reset" class="button" value="Reset"></td>
+            </tr>
+		<img align="left" id="pb4" src="piggyBank4.jpg">			
+		<img align="right" id="pb3" src="piggyBank3.jpg">			
+        </table>
+	
+    </form>
+</body>
+
+</html>

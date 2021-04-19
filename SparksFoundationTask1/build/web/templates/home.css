@@ -1,0 +1,25 @@
+h1
+{
+	text-align:center;
+	font-size:60px;
+	font-family:Cambria;
+	margin-top:0;
+	color:#254117;
+}
+
+body
+{
+	background-image: url("bank8.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+button
+{
+	margin-top: 31%;
+	font-size:30px;
+	margin-left:14.1%;
+	padding:10px;
+	color:#EEEEEE;
+	background-color: #25383C;
+}

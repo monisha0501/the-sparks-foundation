@@ -1,0 +1,53 @@
+body
+{
+	background-color:#E3DDE2;
+}
+
+h1
+{
+	text-align:center;
+	font-size:60px;
+	font-family:Cambria;
+	margin-top:3;
+}
+
+td
+{
+	padding:15px;
+	font-size:50px;
+}
+
+.button
+{
+	padding:5px;
+	font-size: 25px;
+	margin-left:25%;
+	background-color:#E3DDE2;
+}
+
+table
+{
+	margin-left:35%;
+	margin-top:5%;
+	border:solid;
+	padding:30px;
+	background-color:#B048B5;	
+	border-color:#B048B5;
+	border-radius:35px;
+}
+
+img
+{
+	height:450px;
+	width:450px;
+}
+
+#pb3
+{
+	padding-right:40px;
+}
+
+#pb4
+{
+	padding-left:40px;
+}

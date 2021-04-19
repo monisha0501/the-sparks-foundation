@@ -1,0 +1,24 @@
+table
+{
+	margin-left:25%;
+	font-size:20px;
+	border:solid;
+	border-color:#C6DEFF;
+	background-color:#EBF4FA;
+}
+
+th
+{
+	background-color:#C6DEFF;
+}
+
+select, label, input
+{
+	font-size:20px;
+	margin:5px 10px 5px 10px;
+}
+
+label
+{
+	margin-right:0px;
+}

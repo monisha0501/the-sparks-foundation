@@ -1,0 +1,19 @@
+nav
+{
+	text-align:right;
+}
+
+a
+{
+	text-decoration:none;
+	padding:7px;
+	font-size:20px;
+	border:solid;
+	background-color:#736F6E;
+	color:#FFFFFF;
+}
+
+.active
+{
+	background-color:#2B3856;
+}
